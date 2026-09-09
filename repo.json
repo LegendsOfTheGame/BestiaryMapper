@@ -1,0 +1,35 @@
+[
+  {
+    "Author": "LegendsOfTheGame",
+    "Name": "Bestiary Mapper",
+    "InternalName": "BestiaryMapper",
+    "AssemblyVersion": "1.0.0.15",
+    "Description": "Lists every beast trackable in the Master's Bestiary (Beastmaster) alongside the enemy it is tamed from, its zone, minimum level, and Kornago Gourd unlock. Select an entry to flag its location on the in-game map.",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "beastmaster",
+      "bestiary",
+      "map",
+      "hunting"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "Find every Master's Bestiary beast on the map",
+    "AcceptsFeedback": true,
+    "RepoUrl": "https://github.com/LegendsOfTheGame/BestiaryMapper",
+    "CategoryTags": [
+      "utility"
+    ],
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/LegendsOfTheGame/BestiaryMapper/releases/latest/download/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/LegendsOfTheGame/BestiaryMapper/releases/latest/download/latest.zip",
+    "DownloadLinkTesting": "https://github.com/LegendsOfTheGame/BestiaryMapper/releases/latest/download/latest.zip",
+    "IconUrl": "https://raw.githubusercontent.com/LegendsOfTheGame/BestiaryMapper/master/BestiaryMapper/images/icon.png",
+    "DownloadCount": 0,
+    "Changelog": "Initial release: browse and search all 50 Master's Bestiary beasts, sort by any column, and flag overworld locations on the native map."
+  }
+]

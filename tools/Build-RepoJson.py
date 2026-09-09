@@ -30,7 +30,7 @@ REPO = 'BestiaryMapper'
 # "releases/latest" resolves to whatever the newest release is, so these links
 # survive every future version without being rewritten.
 DOWNLOAD = f'https://github.com/{OWNER}/{REPO}/releases/latest/download/latest.zip'
-ICON = f'https://raw.githubusercontent.com/{OWNER}/{REPO}/main/BestiaryMapper/images/icon.png'
+ICON = f'https://raw.githubusercontent.com/{OWNER}/{REPO}/master/BestiaryMapper/images/icon.png'
 
 # Dalamud's installer groups by these. Lowercase: that is what its own enum uses,
 # and what most published plugins actually write, though the field is loose
@@ -107,7 +107,7 @@ def main(changelog=None):
     print(f'  {manifest["Name"]} {manifest["AssemblyVersion"]}  API {manifest["DalamudApiLevel"]}')
     print()
     print('Submit this URL:')
-    print(f'  https://raw.githubusercontent.com/{OWNER}/{REPO}/main/repo.json')
+    print(f'  https://raw.githubusercontent.com/{OWNER}/{REPO}/master/repo.json')
 
 
 if __name__ == '__main__':
