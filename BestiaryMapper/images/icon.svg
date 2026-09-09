@@ -1,0 +1,35 @@
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+<rect x="10" y="10" width="130" height="130" rx="14" fill="#a28b71" stroke="#4a3216" stroke-width="6"/>
+<rect x="22" y="22" width="106" height="106" rx="8" fill="none" stroke="#8a6a2f" stroke-width="1.2"/>
+<g transform="translate(75,75)">
+<circle cx="0" cy="0" r="40" fill="none" stroke="#8a6a2f" stroke-width="1" stroke-dasharray="2 6" opacity="0.5"/>
+
+<path d="M -23.5,32.4 L -38,-12.4 L 0,20 L 38,-12.4 L 23.5,32.4" fill="none" stroke="#f5ecd8" stroke-width="5.5" stroke-dasharray="0.1 13" stroke-linecap="round" opacity="0.95"/>
+
+<g fill="#4a3216">
+<ellipse cx="0" cy="14" rx="14" ry="11"/>
+<ellipse cx="-13" cy="-9" rx="6" ry="8" transform="rotate(-18 -13 -9)"/>
+<ellipse cx="0" cy="-14" rx="6" ry="8"/>
+<ellipse cx="13" cy="-9" rx="6" ry="8" transform="rotate(18 13 -9)"/>
+</g>
+
+<g transform="translate(0,-40) rotate(0) scale(0.42)" fill="#4a3216">
+<ellipse cx="0" cy="6" rx="9" ry="7"/><ellipse cx="-9" cy="-6" rx="4" ry="5.5"/><ellipse cx="0" cy="-9" rx="4" ry="5.5"/><ellipse cx="9" cy="-6" rx="4" ry="5.5"/>
+</g>
+<g transform="translate(38,-12.4) rotate(72) scale(0.42)" fill="#4a3216">
+<ellipse cx="0" cy="6" rx="9" ry="7"/><ellipse cx="-9" cy="-6" rx="4" ry="5.5"/><ellipse cx="0" cy="-9" rx="4" ry="5.5"/><ellipse cx="9" cy="-6" rx="4" ry="5.5"/>
+</g>
+
+<g transform="translate(23.5,32.4) rotate(-36)">
+<line x1="0" y1="9" x2="0" y2="-9" stroke="#4a3216" stroke-width="2.2"/>
+<path d="M 0,9 L -11,5 L 0,1 Z" fill="#7a2f2f"/>
+</g>
+
+<g transform="translate(-23.5,32.4) rotate(216) scale(0.42)" fill="#4a3216">
+<ellipse cx="0" cy="6" rx="9" ry="7"/><ellipse cx="-9" cy="-6" rx="4" ry="5.5"/><ellipse cx="0" cy="-9" rx="4" ry="5.5"/><ellipse cx="9" cy="-6" rx="4" ry="5.5"/>
+</g>
+<g transform="translate(-38,-12.4) rotate(288) scale(0.42)" fill="#4a3216">
+<ellipse cx="0" cy="6" rx="9" ry="7"/><ellipse cx="-9" cy="-6" rx="4" ry="5.5"/><ellipse cx="0" cy="-9" rx="4" ry="5.5"/><ellipse cx="9" cy="-6" rx="4" ry="5.5"/>
+</g>
+</g>
+</svg>

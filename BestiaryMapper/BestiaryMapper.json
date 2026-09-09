@@ -1,0 +1,12 @@
+{
+    "Author": "LegendsOfTheGame",
+    "Name": "Bestiary Mapper",
+    "Punchline": "Find every Master's Bestiary beast on the map",
+    "Description": "Lists every beast trackable in the Master's Bestiary (Beastmaster) alongside the enemy it is tamed from, its zone, minimum level, and Kornago Gourd unlock. Select an entry to flag its location on the in-game map.",
+    "Tags": [
+        "beastmaster",
+        "bestiary",
+        "map",
+        "hunting"
+    ]
+}
