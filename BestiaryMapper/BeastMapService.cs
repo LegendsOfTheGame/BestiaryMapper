@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using Dalamud.Game.Text.SeStringHandling.Payloads;
 using Dalamud.Plugin.Services;
+using FFXIVClientStructs.FFXIV.Client.Game;
 using Lumina.Excel.Sheets;
 
 namespace BestiaryMapper
@@ -12,7 +13,7 @@ namespace BestiaryMapper
     /// TerritoryType sheet rather than a hardcoded id table, so it keeps
     /// working across patches without maintenance.
     /// </summary>
-    public class BeastMapService
+    public unsafe class BeastMapService
     {
         private readonly IDataManager dataManager;
         private readonly IGameGui gameGui;
@@ -24,6 +25,19 @@ namespace BestiaryMapper
             this.dataManager = dataManager;
             this.gameGui = gameGui;
             this.pluginLog = pluginLog;
+        }
+
+        /// <summary>
+        /// Whether this beast has been tamed, read live from XBMManager rather than
+        /// stored anywhere — Beast.No is the same row id the Master's Bestiary window
+        /// itself uses (confirmed against MemoriaProbe's "bstpets" probe: NumUnlockedPets
+        /// matched the window's own capture count exactly, and every row read the same
+        /// yes/no the window showed).
+        /// </summary>
+        public bool IsCaptured(Beast beast)
+        {
+            var xbm = XBMManager.Instance();
+            return xbm is not null && xbm->State == XBMManager.DataState.Received && xbm->IsPetUnlocked((uint)beast.No);
         }
 
         public bool TryOpenOnMap(Beast beast)
