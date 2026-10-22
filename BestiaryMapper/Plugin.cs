@@ -12,7 +12,10 @@ namespace BestiaryMapper
     {
         public string Name => "Bestiary Mapper";
 
-        private const string CommandName = "/bestiary";
+        // Retired 22 Oct 2026: /bestiary belongs to the game's own Master's Bestiary,
+        // and /bmap now belongs to Time Memoria. Dalamud needs the plugin to have a
+        // command, so it keeps one that clashes with neither.
+        private const string CommandName = "/bstmap";
 
         internal static IDalamudPluginInterface PluginInterface { get; private set; } = null!;
         internal static ICommandManager CommandManager { get; private set; } = null!;
