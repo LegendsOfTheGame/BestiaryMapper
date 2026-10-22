@@ -3,7 +3,7 @@
     "Author": "LegendsOfTheGame",
     "Name": "Bestiary Mapper",
     "InternalName": "BestiaryMapper",
-    "AssemblyVersion": "1.0.0.15",
+    "AssemblyVersion": "1.0.1.15",
     "Description": "Lists every beast trackable in the Master's Bestiary (Beastmaster) alongside the enemy it is tamed from, its zone, minimum level, and Kornago Gourd unlock. Select an entry to flag its location on the in-game map.",
     "ApplicableVersion": "any",
     "Tags": [
@@ -30,6 +30,6 @@
     "DownloadLinkTesting": "https://github.com/LegendsOfTheGame/BestiaryMapper/releases/latest/download/latest.zip",
     "IconUrl": "https://raw.githubusercontent.com/LegendsOfTheGame/BestiaryMapper/master/BestiaryMapper/images/icon.png",
     "DownloadCount": 0,
-    "Changelog": "Initial release: browse and search all 50 Master's Bestiary beasts, sort by any column, and flag overworld locations on the native map."
+    "Changelog": "Final release. Bestiary Mapper is retired; future updates are in Time Memoria (Settings > Features > Master's Bestiary, or /bmap).\n- Added: a live Captured column, read from the game.\n- Changed: the command is now /bstmap. /bestiary is the game's own command again, and /bmap now opens Time Memoria's table.\n- Added: a line in the window that says where future updates are."
   }
 ]
