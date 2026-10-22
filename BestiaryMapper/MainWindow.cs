@@ -40,6 +40,12 @@ namespace BestiaryMapper
             ImGui.SetNextWindowSizeConstraints(new Vector2(480, 300), new Vector2(float.MaxValue, float.MaxValue));
             if (ImGui.Begin(plugin.Name, ref visible))
             {
+                // Bestiary Mapper is retired (22 Oct 2026). This build keeps working as
+                // it is; the line tells its players where future updates are.
+                ImGui.TextColored(new Vector4(1f, 0.85f, 0.4f, 1f),
+                    "Future updates are in Time Memoria: Settings > Features > Master's Bestiary.");
+                ImGui.Spacing();
+
                 ImGui.SetNextItemWidth(-1);
                 ImGui.InputTextWithHint("##search", "Search by name, source, or zone...", ref searchText, 128);
 
